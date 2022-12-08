@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #28282B;
 }
 
 /* ===================================
@@ -16,6 +17,7 @@ body {
 ======================================*/
 .navbar-brand h2 {
     margin-top: 4px;
+    
 }
 
 /* ===================================
@@ -27,6 +29,9 @@ body {
     left: 80px;
     font-weight: 700;
     font-size: 85px;
+}
+h1{
+    color: white;
 }
 
 .animate__animated.animate__fadeInUp {
@@ -53,14 +58,16 @@ body {
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 .category h4 {
     font-weight: 700;
+    
 }
 .category:hover {
     background-color: #fceae8;
 }
+
 .hamba-buy-now-btn {
     background-image: linear-gradient(to bottom, #a1ffa2 0%, #a1ffa2 100%);
     color: rgb(0, 0, 0);
@@ -68,7 +75,7 @@ body {
     border-radius: 8px;
     padding: 9px 55px;
     transition: 0.4s ease-in-out;
-    float:right;
+    float: right;
 }
 
 .hamba-buy-now-btn:hover {
@@ -104,8 +111,10 @@ body {
 /* ================================
         Footer section
 ===================================*/
+
 .contact a {
     color: #fff;
+
 }
 .fa-facebook {
     color: #097BEA;
