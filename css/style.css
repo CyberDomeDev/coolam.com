@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Global css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===================================
+        Navbar Section
+======================================*/
+.navbar-brand h2 {
+    margin-top: 4px;
+}
+
+/* ===================================
+        Hero Section
+======================================*/
+.info {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.animate__animated.animate__fadeInUp {
+    animation-duration: 3s;
+}
+.carousel-item img {
+    max-height: 660px;
+    object-fit: cover;
+}
+
+
+/* ================================
+        Category section
+===================================*/
+.category {
+    width: 100%;
+    padding: 25px 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category-image img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.category h4 {
+    font-weight: 700;
+}
+.category:hover {
+    background-color: #fceae8;
+}
+.hamba-buy-now-btn {
+    background-image: linear-gradient(to bottom, #a1ffa2 0%, #a1ffa2 100%);
+    color: rgb(0, 0, 0);
+    border: transparent;
+    border-radius: 8px;
+    padding: 9px 55px;
+    transition: 0.4s ease-in-out;
+    float:right;
+}
+
+.hamba-buy-now-btn:hover {
+    transform: scale(1.05);
+    color: rgb(241, 236, 236);
+    background-image: linear-gradient(to bottom, #2b3e66 0%, #2b3e66 100%);
+}
+
+.products-image {
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.hamba-card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+/* ================================
+        Payment Section
+===================================*/
+.pay-now-btn {
+    border: 2px solid #FF136F;
+    transition: 0.4s ease-in-out;
+    color: #FF136F;
+}
+
+.pay-now-btn:hover {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+}
+
+/* ================================
+        Footer section
+===================================*/
+.contact a {
+    color: #fff;
+}
+.fa-facebook {
+    color: #097BEA;
+}
+.fa-twitter {
+    color: #5DA9DD;
+}
+.fa-youtube {
+    color: #FE0000;
+}
+.fa-dribbble {
+    color: #E04B86;
+}
