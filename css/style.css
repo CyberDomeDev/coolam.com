@@ -116,6 +116,9 @@ h1{
     color: #fff;
 
 }
+img {
+    border-radius: 20px;
+}
 .fa-facebook {
     color: #097BEA;
 }
